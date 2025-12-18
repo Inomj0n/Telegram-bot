@@ -1,0 +1,152 @@
+{
+    "enemies": [
+        {
+            "name": "Скелет",
+            "hp": 30,
+            "attack": 5,
+            "exp": 10,
+            "loot": {
+                "wood": 5,
+                "stone": 2
+            }
+        },
+        {
+            "name": "Гоблин",
+            "hp": 50,
+            "attack": 10,
+            "exp": 15,
+            "loot": {
+                "wood": 8,
+                "stone": 6,
+                "iron": 3
+            }
+        },
+        {
+            "name": "Зомби",
+            "hp": 100,
+            "attack": 20,
+            "exp": 40,
+            "loot": {
+                "wood": 22,
+                "stone": 17,
+                "iron": 8
+            }
+        }
+    ],
+    "weapons": {
+        "swords": [
+            {
+                "name": "Деревянный меч",
+                "type": "sword",
+                "material": "wood",
+                "attack": 15,
+                "durability": 80
+            },
+            {
+                "name": "Каменный меч",
+                "type": "sword",
+                "material": "stone",
+                "attack": 35,
+                "durability": 150
+            },
+            {
+                "name": "Железный меч",
+                "type": "sword",
+                "material": "iron",
+                "attack": 50,
+                "durability": 290
+            },
+            {
+                "name": "Алмазный меч",
+                "type": "sword",
+                "material": "diamond",
+                "attack": 90,
+                "durability": 360
+            }
+        ],
+        "axes": [
+            {
+                "name": "Деревянный топор",
+                "type": "axe",
+                "material": "wood",
+                "attack": 6,
+                "durability": 90
+            },
+            {
+                "name": "Каменный топор",
+                "type": "axe",
+                "material": "stone",
+                "attack": 18,
+                "durability": 180
+            },
+            {
+                "name": "Железный топор",
+                "type": "axe",
+                "material": "iron",
+                "attack": 34,
+                "durability": 310
+            },
+            {
+                "name": "Алмазный топор",
+                "type": "axe",
+                "material": "diamond",
+                "attack": 64,
+                "durability": 390
+            }
+        ],
+        "spears": [
+            {
+                "name": "Деревянное копье",
+                "type": "spear",
+                "material": "wood",
+                "attack": 10,
+                "durability": 50
+            },
+            {
+                "name": "Каменное копье",
+                "type": "spear",
+                "material": "stone",
+                "attack": 35,
+                "durability": 100
+            },
+            {
+                "name": "Железное копье",
+                "type": "spear",
+                "material": "iron",
+                "attack": 80,
+                "durability": 220
+            },
+            {
+                "name": "Алмазное копье",
+                "type": "spear",
+                "material": "diamond",
+                "attack": 150,
+                "durability": 250
+            }
+        ]
+    },
+    "armor": [
+        {
+            "name": "Деревянная броня",
+            "material": "wood",
+            "defense": 20,
+            "bonusHp": 10
+        },
+        {
+            "name": "Железная броня",
+            "material": "iron",
+            "defense": 50,
+            "bonusHp": 25,
+            "bonusDefense": 10
+        },
+        {
+            "name": "Алмазная броня",
+            "material": "diamond",
+            "defense": 130,
+            "bonusHp": 35,
+            "bonusDefense": 10,
+            "bonusCrit": 0.2,
+            "bonusAttack": 10
+        }
+    ]
+}
