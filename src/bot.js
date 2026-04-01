@@ -26,7 +26,7 @@ function canAct(id) {
 
 bot.start(async (ctx) => {
     await getOrCreatePlayer(ctx);
-    await ctx.reply("Добро пожаловать в RPG бота! Создатель: @Deeadinsult", { reply_markup: { keyboard: mainMenu, resize_keyboard: true } });
+    await ctx.reply("Добро пожаловать в RPG бота!", { reply_markup: { keyboard: mainMenu, resize_keyboard: true } });
 });
 
 bot.hears(/.*/, async (ctx, next) => {
